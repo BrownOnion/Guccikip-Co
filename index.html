@@ -72,6 +72,23 @@
         }
         table, td, td{border-collapse: collapse;
             border: 1px solid black;}
+        @media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product img {
+        width: 90%; /* past beter op mobiel */
+        margin-bottom: 20px;
+    }
+
+    .product-info {
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
     </style>
 </head>
 <body>
